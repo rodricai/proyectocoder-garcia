@@ -1,0 +1,19 @@
+.contenedor-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .elemento-flex { 
+    text-align: center;
+    margin-right: 15px;
+  }
+  footer {
+    background-color: #ffcdd2;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  iframe {
+    margin: 15px;
+    border-radius: 16px;
+  }
