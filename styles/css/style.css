@@ -187,4 +187,45 @@ button {
   border-radius: 8px;
 }
 
+@media (max-width: 767px) {
+  p {
+    font-size: large;
+    color: #000;
+  }
+  .info-animales i {
+    color: #000;
+  }
+  .img {
+    border: 3px solid whitesmoke;
+  }
+  .contenedor-flex {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedor-animales {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  #img-inicio {
+    width: 90%;
+  }
+  iframe {
+    width: 90%;
+  }
+  form {
+    width: 90%;
+  }
+  #check {
+    width: 90%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
