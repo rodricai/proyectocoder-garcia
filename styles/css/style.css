@@ -38,6 +38,10 @@ iframe {
   border-radius: 16px;
 }
 
+textarea {
+  width: 100%;
+}
+
 #titulo {
   font-family: sans-serif;
   color: #000;
@@ -165,13 +169,28 @@ button {
   height: 250px;
 }
 
-.contenedor-animales {
-  display: flex;
+/* .contenedor-animales {
+   display: flex;
+   align-items: center;
+ }*/
+.info-animales {
+  margin-left: 20px; /* ajusta el margen según tus necesidades */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
   align-items: center;
 }
 
-.info-animales {
-  margin-left: 20px; /* ajusta el margen según tus necesidades */
+.grid-item {
+  background-color: #e57373;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  border-radius: 8px;
 }
 
 .img-quienes {
@@ -206,7 +225,7 @@ button {
     align-items: center;
     text-align: center;
   }
-  .contenedor-animales {
+  .grid-container {
     display: block;
     justify-content: center;
     align-content: center;
@@ -215,6 +234,9 @@ button {
     text-align: center;
   }
   #img-inicio {
+    width: 90%;
+  }
+  .img-quienes {
     width: 90%;
   }
   iframe {

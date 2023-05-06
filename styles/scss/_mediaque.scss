@@ -17,7 +17,7 @@
       align-items: center;
       text-align: center; 
     }
-    .contenedor-animales{
+    .grid-container{
       display: block;
       justify-content: center;
       align-content: center;
@@ -28,6 +28,10 @@
     #img-inicio{
       width: 90%;
     }
+    .img-quienes{
+      width: 90%;
+    }
+
     iframe{
       width: 90%;
       

@@ -3,7 +3,9 @@
     color: #000;
     text-align: center;
 }
-
+textarea{
+    width: 100%
+}
 #titulo {
     @include stylefont();
     padding-top: 15px;
